@@ -16,30 +16,11 @@ Expected layout:
 
 ```text
 data/lsm/
-├── brisbane/
+├── brisbane
 │   └── image.tiff
-├── camarillo/
+├── camarillo
 │   └── image.tiff
-├── cambridge/
-│   └── image.tiff
-├── hawick/
-│   └── image.tiff
-├── kagoshima/
-│   └── image.tiff
-├── lagos/
-│   └── image.tiff
-├── lamington/
-│   └── image.tiff
-├── logan-village/
-│   └── image.tiff
-├── manaus/
-│   └── image.tiff
-├── munich/
-│   └── image.tiff
-├── muscat/
-│   └── image.tiff
-└── vancouver/
-    └── image.tiff
+...
 ```
 
 Each `image.tiff` is expected to be a `uint16` multispectral image with shape `H x W x C`.
