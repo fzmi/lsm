@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.env
+.venv/
+venv/
+
+# Dataset and generated artefacts
+data/lsm/
+outputs/
+checkpoints/
+wandb/
+
+# Large model files
+*.ckpt
+*.pth
+*.pt
+*.tar
+*.tar.gz
+
+# Generated imagery/results
+*.jp2
+*.tif
+*.tiff
+*.csv
+*.json
+
+# OS/editor files
+.DS_Store
+.vscode/
