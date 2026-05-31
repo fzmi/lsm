@@ -6,7 +6,9 @@ LSM is a benchmark for multispectral satellite image delivery. It evaluates how 
 
 ## Dataset
 
-The dataset will be published on Hugging Face. After downloading it, place or symlink the extracted dataset at:
+Download URL: [https://huggingface.co/datasets/nifu/LSM](https://huggingface.co/datasets/nifu/LSM)
+
+The dataset is hosted on Hugging Face. After downloading it, place or symlink the extracted dataset at:
 
 ```text
 data/lsm
